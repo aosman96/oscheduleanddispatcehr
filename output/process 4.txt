@@ -1,0 +1,7 @@
+[2:3] cpu
+[7:9] cpu
+[14:16] cpu
+ turnaround time =  15 
+ weighted turnaround time =  1.875 
+ priority =  2 
+ totaltime =  8 

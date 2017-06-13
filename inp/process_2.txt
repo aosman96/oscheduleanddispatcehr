@@ -1,0 +1,7 @@
+#this line is a commented line
+#this line indicates process size in KB
+size 300
+#this line indicates when the process arrive
+priority 5
+arrival  4
+cpu 5 

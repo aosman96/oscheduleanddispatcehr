@@ -1,0 +1,8 @@
+Performance = 2.52871
+Avg waiting = 3.25
+sum waiting = 13
+Avg weighted turnaround = 1.82917
+Standard Deviation = 0.326838
+weighted count 4
+weighted sum 7.31667
+standardDev numerator 0.427292

@@ -1,0 +1,9 @@
+#this is a commented line and should be ignored
+#Algorithm number indicate which algorithm should run now
+4
+#context switching penality in seconds units
+2
+#time quantum in seconds units
+4
+#rate of data transfer from memory to disk in kb/second units, will be used in phase 2 or 3
+500 

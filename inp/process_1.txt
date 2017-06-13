@@ -1,0 +1,7 @@
+#this line is a commented line
+#only this files contains examples for paged memory (not this phase)
+#this line indicates process size in KB
+size 200
+priority 3
+arrival  5
+cpu 6

@@ -1,0 +1,54 @@
+std::vector<process> sched::computeSRT(){
+ std::vector<process> processhastime;
+getnextprocess(ri1);
+getnextprocess(ri2);
+
+  }  
+ 
+
+
+
+ std::vector<process> sched::computeSRT(std::vector<process> readyqueue)
+ { 
+ 	std::vector<process> temp;
+ 	(*readyqueue.begin()).refresh();
+ 		std::vector<process>::iterator min1= readyqueue.begin();
+ 		std::vector<process>::iterator min2= readyqueue.begin();
+ 		int min =(*readyqueue.begin()).remainingtime ;
+		for(int i = 1; i<readyqueue.size();i++)
+		{
+			*(min1+i).refresh();
+			if(*(min1+i).remainingtime <= min)
+			{
+				min2 = min1 ;
+				min = (*(min1+i)).remainingtime;
+				min1 = (min1+i) ;
+			}
+
+	
+		}
+	if(min1==min2)
+	{
+		std::vector<process>::iterator min2= readyqueue.begin()+1;
+ 		int min =(*(readyqueue.begin()+1)).remainingtime;
+		for(int i = 2; i<readyqueue.size();i++)
+		{
+			if(*(min2+i).remainingtime <= min)
+			{
+				min = (*(min2+i)).remainingtime;
+				min2 = (min2+i) ;
+			}
+		}
+	}
+		temp.push_back(*min1);
+		temp.push_back(*min2);
+		return temp ;
+}
+
+
+
+
+// void computeSRT();
+   // int getNextProcess(int);
+   // void computeRR();
+//vector<process>::iterator ri2 ;

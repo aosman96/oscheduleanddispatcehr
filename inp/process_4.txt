@@ -1,0 +1,10 @@
+#this line is a commented line
+#this line indicates process size in KB
+size 600
+#this line indicates when the process arrive
+priority 5
+arrival  3
+#this line indicates for how long the process needs the cpu  seconds
+cpu 8
+#this line indicates how long the process needs the I/O channel seconds
+#finish 

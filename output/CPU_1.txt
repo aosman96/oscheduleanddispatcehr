@@ -1,0 +1,5 @@
+[2:3] Process_ 4
+[6:10] Process_ 2
+[12:15] Process_ 3
+[16:17] Process_ 1
+CPU Utilization = 0.684211

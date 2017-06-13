@@ -1,0 +1,4 @@
+size 200
+priority 2
+arrival  2
+cpu 8
